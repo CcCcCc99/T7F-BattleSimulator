@@ -152,3 +152,4 @@ Received Import Request.
 Start importing Assets/PM_DB/template using Guid(5719e5a9e0f7c614d9acf128223df420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f7138786d9c73336a1cee0df6239a9') in 0.023899 seconds
   Import took 0.032576 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
