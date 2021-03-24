@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d47e806a7d42554a8f767a249ae6871, type: 3}
+  m_Name: Terra
+  m_EditorClassIdentifier: 
+  nome: Terra
+  colore: {r: 0.87843144, g: 0.75294125, b: 0.40784317, a: 0}
+  "immunit\xE0":
+  - {fileID: 11400000, guid: bb4ba73c9837b764b98e4d83b4cda9e2, type: 2}
+  resistenze:
+  - {fileID: 11400000, guid: d8141ce9c2e67f243b9f1f0dc2b85b21, type: 2}
+  - {fileID: 11400000, guid: a74dd2a130de6ff428eeac48126de836, type: 2}
+  debolezze:
+  - {fileID: 11400000, guid: 7bebdce6d2f49214ea7257159ab8785a, type: 2}
+  - {fileID: 11400000, guid: 6c2c445ae05ff294a8abcca7b0d6d9da, type: 2}
+  - {fileID: 11400000, guid: a6a7ce4964484df4690891325ed059aa, type: 2}

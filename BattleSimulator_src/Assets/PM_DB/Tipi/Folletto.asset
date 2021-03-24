@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d47e806a7d42554a8f767a249ae6871, type: 3}
+  m_Name: Folletto
+  m_EditorClassIdentifier: 
+  nome: Folletto
+  colore: {r: 0.9333334, g: 0.6, b: 0.6745098, a: 0}
+  "immunit\xE0":
+  - {fileID: 11400000, guid: 899964d595c74274b8944a3cd7ec7109, type: 2}
+  resistenze:
+  - {fileID: 11400000, guid: 4dd1d7e28e272614b94ad6c4f389f9a0, type: 2}
+  - {fileID: 11400000, guid: 0c6d9b370561b8342b1506f618bc667a, type: 2}
+  - {fileID: 11400000, guid: 7511832a21993cd45adc81034e94aff1, type: 2}
+  debolezze:
+  - {fileID: 11400000, guid: d8141ce9c2e67f243b9f1f0dc2b85b21, type: 2}
+  - {fileID: 11400000, guid: a49dd52fe69a8f44dbe3104ae9756afb, type: 2}

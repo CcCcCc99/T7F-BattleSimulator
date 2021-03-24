@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d47e806a7d42554a8f767a249ae6871, type: 3}
+  m_Name: Fuoco
+  m_EditorClassIdentifier: 
+  nome: Fuoco
+  colore: {r: 0.94117653, g: 0.5019608, b: 0.18823531, a: 0}
+  "immunit\xE0": []
+  resistenze:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 6c2c445ae05ff294a8abcca7b0d6d9da, type: 2}
+  - {fileID: 11400000, guid: a6a7ce4964484df4690891325ed059aa, type: 2}
+  - {fileID: 11400000, guid: 0c6d9b370561b8342b1506f618bc667a, type: 2}
+  - {fileID: 11400000, guid: a49dd52fe69a8f44dbe3104ae9756afb, type: 2}
+  - {fileID: 11400000, guid: 8d3194b8e5648534b8ab1fe1546e73f1, type: 2}
+  debolezze:
+  - {fileID: 11400000, guid: 7bebdce6d2f49214ea7257159ab8785a, type: 2}
+  - {fileID: 11400000, guid: 9871a85d61a20534ebd12122f93fa9bb, type: 2}
+  - {fileID: 11400000, guid: a74dd2a130de6ff428eeac48126de836, type: 2}

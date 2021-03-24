@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d47e806a7d42554a8f767a249ae6871, type: 3}
+  m_Name: Acqua
+  m_EditorClassIdentifier: 
+  nome: Acqua
+  colore: {r: 0.40784317, g: 0.5647059, b: 0.94117653, a: 0}
+  "immunit\xE0": []
+  resistenze:
+  - {fileID: 11400000, guid: 7f3c2643f5849134f9c1db15b82d0e4e, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: a6a7ce4964484df4690891325ed059aa, type: 2}
+  - {fileID: 11400000, guid: a49dd52fe69a8f44dbe3104ae9756afb, type: 2}
+  debolezze:
+  - {fileID: 11400000, guid: bb4ba73c9837b764b98e4d83b4cda9e2, type: 2}
+  - {fileID: 11400000, guid: 6c2c445ae05ff294a8abcca7b0d6d9da, type: 2}

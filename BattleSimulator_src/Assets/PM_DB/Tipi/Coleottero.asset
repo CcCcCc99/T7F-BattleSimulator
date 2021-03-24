@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d47e806a7d42554a8f767a249ae6871, type: 3}
+  m_Name: Coleottero
+  m_EditorClassIdentifier: 
+  nome: Coleottero
+  colore: {r: 0.65882355, g: 0.72156864, b: 0.1254902, a: 0}
+  "immunit\xE0": []
+  resistenze:
+  - {fileID: 11400000, guid: 6c2c445ae05ff294a8abcca7b0d6d9da, type: 2}
+  - {fileID: 11400000, guid: 4dd1d7e28e272614b94ad6c4f389f9a0, type: 2}
+  - {fileID: 11400000, guid: 9871a85d61a20534ebd12122f93fa9bb, type: 2}
+  debolezze:
+  - {fileID: 11400000, guid: 7f3c2643f5849134f9c1db15b82d0e4e, type: 2}
+  - {fileID: 11400000, guid: 0830bee47cc0ea2418df6248a801fb3e, type: 2}
+  - {fileID: 11400000, guid: a74dd2a130de6ff428eeac48126de836, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d47e806a7d42554a8f767a249ae6871, type: 3}
+  m_Name: Lotta
+  m_EditorClassIdentifier: 
+  nome: Lotta
+  colore: {r: 0.75294125, g: 0.18823531, b: 0.15686275, a: 0}
+  "immunit\xE0": []
+  resistenze:
+  - {fileID: 11400000, guid: 0c6d9b370561b8342b1506f618bc667a, type: 2}
+  - {fileID: 11400000, guid: a74dd2a130de6ff428eeac48126de836, type: 2}
+  - {fileID: 11400000, guid: 7511832a21993cd45adc81034e94aff1, type: 2}
+  debolezze:
+  - {fileID: 11400000, guid: 0830bee47cc0ea2418df6248a801fb3e, type: 2}
+  - {fileID: 11400000, guid: 199a58322bc224344b57164c5cab7240, type: 2}
+  - {fileID: 11400000, guid: 8d3194b8e5648534b8ab1fe1546e73f1, type: 2}
