@@ -15,11 +15,11 @@ C:/Users/corva/Desktop/Progetti/T7F-BattleSimulator/BattleSimulator_src
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62458
+64188
 Successfully changed project path to: C:/Users/corva/Desktop/Progetti/T7F-BattleSimulator/BattleSimulator_src
 C:/Users/corva/Desktop/Progetti/T7F-BattleSimulator/BattleSimulator_src
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 67.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 61.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,120 +35,237 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006620 seconds.
+Registered in 0.004883 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.76 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 54.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.635 seconds
+- Completed reload, in  3.602 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001558 seconds.
+Registered in 0.001503 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 126.89 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 75.95 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.201 seconds
+- Completed reload, in  2.242 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.6 MB.
 System memory in use after: 84.5 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2251.
-Total: 3.769100 ms (FindLiveObjects: 0.304600 ms CreateObjectMapping: 0.190300 ms MarkObjects: 3.029300 ms  DeleteObjects: 0.242700 ms)
+Total: 3.471100 ms (FindLiveObjects: 0.393800 ms CreateObjectMapping: 0.285900 ms MarkObjects: 2.588500 ms  DeleteObjects: 0.200100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/PM_DB
-  artifactKey: Guid(d2e7cc5b4bb12744fa36bf2c10d47cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB using Guid(d2e7cc5b4bb12744fa36bf2c10d47cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26eff911c990acc43db72a34db384572') in 0.022816 seconds
-  Import took 0.030044 seconds .
+  path: Assets/PM_DB/template/Mossa.cs
+  artifactKey: Guid(a2c4a9f414c859c4e849df5892acbc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/template/Mossa.cs using Guid(a2c4a9f414c859c4e849df5892acbc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7793b78004bc4c71a64f9c519fca6b7') in 0.066326 seconds
+  Import took 0.074368 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.024832 seconds.
-  path: Assets/PM_DB/Mosse
-  artifactKey: Guid(5c948d62f769c784f86f5bee3b411d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse using Guid(5c948d62f769c784f86f5bee3b411d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8582d69cef0f7e093395ae3c611c17') in 0.020664 seconds
-  Import took 0.028056 seconds .
+  Time since last request: 143.729327 seconds.
+  path: Assets/PM_DB/template/MossaAttacco.cs
+  artifactKey: Guid(f8a7466a803edf549adbdecc69712382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/template/MossaAttacco.cs using Guid(f8a7466a803edf549adbdecc69712382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1e85d796fff111b361c77c4c1f6355') in 0.026127 seconds
+  Import took 0.034556 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.608 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 4.132200 ms (FindLiveObjects: 0.428400 ms CreateObjectMapping: 0.276300 ms MarkObjects: 3.204100 ms  DeleteObjects: 0.220600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.157931 seconds.
-  path: Assets/PM_DB/Mosse/MossaEsempio.asset
-  artifactKey: Guid(93862fd2c63c50548a178acf27942131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/MossaEsempio.asset using Guid(93862fd2c63c50548a178acf27942131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105b2c6b650afe7165bf46a4cd895dcb') in 0.070980 seconds
-  Import took 0.076321 seconds .
+  Time since last request: 157.498622 seconds.
+  path: Assets/PM_DB/template/Tipo.cs
+  artifactKey: Guid(8d47e806a7d42554a8f767a249ae6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/template/Tipo.cs using Guid(8d47e806a7d42554a8f767a249ae6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca6e67854f49831e81ea0c4882df594') in 0.028020 seconds
+  Import took 0.037103 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.147101 seconds.
-  path: Assets/PM_DB/Mosse/Mossa1.asset
-  artifactKey: Guid(b5d9c0b311d486945acbdce6facfbf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Mossa1.asset using Guid(b5d9c0b311d486945acbdce6facfbf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74f94037881a3ff54e08d79b7873293') in 0.055761 seconds
-  Import took 0.080469 seconds .
+  Time since last request: 0.006917 seconds.
+  path: Assets/PM_DB/template/Tipo.cs
+  artifactKey: Guid(8d47e806a7d42554a8f767a249ae6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/template/Tipo.cs using Guid(8d47e806a7d42554a8f767a249ae6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca6e67854f49831e81ea0c4882df594') in 0.011329 seconds
+  Import took 0.018387 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 6.025200 ms (FindLiveObjects: 0.288500 ms CreateObjectMapping: 0.327900 ms MarkObjects: 5.229500 ms  DeleteObjects: 0.177200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.916317 seconds.
-  path: Assets/PM_DB/Mosse/Mossa3.asset
-  artifactKey: Guid(a73fa86846e48894cabb092aeab6e1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Mossa3.asset using Guid(a73fa86846e48894cabb092aeab6e1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede99710e0dc3dc672737d88188e546a') in 0.024658 seconds
-  Import took 0.030557 seconds .
+  Time since last request: 501.346298 seconds.
+  path: Assets/PM_DB/Mosse/Nuova mossa attacco.asset
+  artifactKey: Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Mosse/Nuova mossa attacco.asset using Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbfa9f254b52a2ae0509dc87854854f') in 0.057332 seconds
+  Import took 0.065208 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.250310 seconds.
-  path: Assets/PM_DB/Mosse/Mossa2.asset
-  artifactKey: Guid(c8bfa88ae1e768044aa199ed92bba3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Mossa2.asset using Guid(c8bfa88ae1e768044aa199ed92bba3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c92feb61027d61043d236431050991a') in 0.030311 seconds
-  Import took 0.040826 seconds .
+  Time since last request: 117.729898 seconds.
+  path: Assets/PM_DB/template/Pokémon.cs
+  artifactKey: Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/template/Pokémon.cs using Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d716d57459fd26388de9b018470e19') in 0.024377 seconds
+  Import took 0.032556 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.843924 seconds.
-  path: Assets/PM_DB/Pokémon
-  artifactKey: Guid(46ae572da7405af4baa0d8343c98cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon using Guid(46ae572da7405af4baa0d8343c98cf5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf837d672620c6e568d8f4157078435') in 0.023848 seconds
-  Import took 0.033840 seconds .
+  Time since last request: 0.001270 seconds.
+  path: Assets/PM_DB/template/Pokémon.cs
+  artifactKey: Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/template/Pokémon.cs using Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d716d57459fd26388de9b018470e19') in 0.009215 seconds
+  Import took 0.016288 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003983 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.682 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 3.373500 ms (FindLiveObjects: 0.285500 ms CreateObjectMapping: 0.140400 ms MarkObjects: 2.735900 ms  DeleteObjects: 0.210200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.183597 seconds.
-  path: Assets/PM_DB/Tipi
-  artifactKey: Guid(5e7ed5c9d9f11074e924f6068846ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Tipi using Guid(5e7ed5c9d9f11074e924f6068846ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27edcb33730bc9a71f59baa9337728a') in 0.015734 seconds
-  Import took 0.033475 seconds .
+  Time since last request: 216.921910 seconds.
+  path: Assets/PM_DB/Pokémon/Nuovo pokémon.asset
+  artifactKey: Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/Nuovo pokémon.asset using Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d2abc35c80f095e3c45a54da645657') in 0.029670 seconds
+  Import took 0.036725 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001633 seconds.
-  path: Assets/PM_DB/Tipi
-  artifactKey: Guid(5e7ed5c9d9f11074e924f6068846ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Tipi using Guid(5e7ed5c9d9f11074e924f6068846ce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27edcb33730bc9a71f59baa9337728a') in 0.007999 seconds
-  Import took 0.015323 seconds .
+  Time since last request: 0.005352 seconds.
+  path: Assets/PM_DB/Pokémon/Nuovo pokémon.asset
+  artifactKey: Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/Nuovo pokémon.asset using Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d2abc35c80f095e3c45a54da645657') in 0.008692 seconds
+  Import took 0.012512 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.274576 seconds.
-  path: Assets/PM_DB/template
-  artifactKey: Guid(5719e5a9e0f7c614d9acf128223df420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/template using Guid(5719e5a9e0f7c614d9acf128223df420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f7138786d9c73336a1cee0df6239a9') in 0.023899 seconds
-  Import took 0.032576 seconds .
+  Time since last request: 392.261667 seconds.
+  path: Assets/PM_DB/Mosse/Azione.asset
+  artifactKey: Guid(b227d725c093a8f4f9d6a4bd40c8db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Mosse/Azione.asset using Guid(b227d725c093a8f4f9d6a4bd40c8db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e85da5fb3c0b14b4ee4c29b7a313bf5') in 0.021554 seconds
+  Import took 0.027696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.837530 seconds.
+  path: Assets/PM_DB/Mosse/Nuova mossa attacco.asset
+  artifactKey: Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Mosse/Nuova mossa attacco.asset using Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff29bae67a2ba70fc5cb5df902827cf') in 0.013469 seconds
+  Import took 0.021710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.203742 seconds.
+  path: Assets/PM_DB/Mosse/Graffio.asset
+  artifactKey: Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Mosse/Graffio.asset using Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993d30bf748d5d552451373c4e1731bb') in 0.026113 seconds
+  Import took 0.037101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.667995 seconds.
+  path: Assets/PM_DB/Mosse/Pistolacqua.asset
+  artifactKey: Guid(882d5858589fc484998dbf4d6070a045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Mosse/Pistolacqua.asset using Guid(882d5858589fc484998dbf4d6070a045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cf099586b23df7b34435f13fc00ccb') in 0.022306 seconds
+  Import took 0.030970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.897940 seconds.
+  path: Assets/PM_DB/Mosse/Braciere.asset
+  artifactKey: Guid(ddca832282c332b4387d6a3fe08341db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Mosse/Braciere.asset using Guid(ddca832282c332b4387d6a3fe08341db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5242b87240ef51bb06c0dd7708fac24a') in 0.019405 seconds
+  Import took 0.026681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.826564 seconds.
+  path: Assets/PM_DB/Mosse/Nuova mossa attacco.asset
+  artifactKey: Guid(fb248fcd1ce27e247a91d9dd9bdb2bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Mosse/Nuova mossa attacco.asset using Guid(fb248fcd1ce27e247a91d9dd9bdb2bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1472d54e48302412d6d68c64501810cd') in 0.013890 seconds
+  Import took 0.023008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 343.189888 seconds.
+  path: Assets/PM_DB/Mosse/Foglielama.asset
+  artifactKey: Guid(fb248fcd1ce27e247a91d9dd9bdb2bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Mosse/Foglielama.asset using Guid(fb248fcd1ce27e247a91d9dd9bdb2bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226c0dcdae5333f4e16a5826b02436d0') in 0.021450 seconds
+  Import took 0.031384 seconds .
 
