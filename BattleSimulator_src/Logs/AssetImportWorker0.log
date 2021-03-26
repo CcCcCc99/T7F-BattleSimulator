@@ -237,3 +237,115 @@ Received Import Request.
 Start importing Assets/PM_DB/Pokémon/Nuovo pokémon.asset using Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d6310306f4de31390452423de67d9d') in 0.073406 seconds
   Import took 0.083840 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 479.231993 seconds.
+  path: Assets/PM_DB/Pokémon/CosoVerde.asset
+  artifactKey: Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/CosoVerde.asset using Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae0f1a20e19a08f74e8069f66ef3d81') in 0.021661 seconds
+  Import took 0.034003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.878919 seconds.
+  path: Assets/PM_DB/Pokémon/NewMon.asset
+  artifactKey: Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/NewMon.asset using Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3df79e6fa91dee487ac8a934f081e1') in 0.033093 seconds
+  Import took 0.042370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 322.109807 seconds.
+  path: Assets/PM_DB/Pokémon/Nuovo pokémon.asset
+  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/Nuovo pokémon.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e27c3bb026e34be1a69dbfeb0c4606') in 0.013826 seconds
+  Import took 0.037324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.701679 seconds.
+  path: Assets/PM_DB/Pokémon/SuperStartte.asset
+  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/SuperStartte.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26672410d0cb3f205ece4341b3442065') in 0.033187 seconds
+  Import took 0.045938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.805378 seconds.
+  path: Assets/PM_DB/Pokémon/SuperStartte.asset
+  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/SuperStartte.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8c141bc23aac69a9ab860ec83b141f') in 0.060184 seconds
+  Import took 0.085775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019234 seconds.
+  path: Assets/PM_DB/Pokémon/SuperStartte.asset
+  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/SuperStartte.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8c141bc23aac69a9ab860ec83b141f') in 0.057603 seconds
+  Import took 0.071845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.124574 seconds.
+  path: Assets/PM_DB/Pokémon/NewMon.asset
+  artifactKey: Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/NewMon.asset using Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c44fc16479b58bd692fc4b7ef814534') in 0.029634 seconds
+  Import took 0.042793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003949 seconds.
+  path: Assets/PM_DB/Pokémon/NewMon.asset
+  artifactKey: Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/NewMon.asset using Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c44fc16479b58bd692fc4b7ef814534') in 0.030440 seconds
+  Import took 0.037739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.406154 seconds.
+  path: Assets/PM_DB/Pokémon/CosoVerde.asset
+  artifactKey: Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/CosoVerde.asset using Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dc2477c8762893e42cfaf175869dbc') in 0.019663 seconds
+  Import took 0.029631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002629 seconds.
+  path: Assets/PM_DB/Pokémon/CosoVerde.asset
+  artifactKey: Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/CosoVerde.asset using Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dc2477c8762893e42cfaf175869dbc') in 0.034163 seconds
+  Import took 0.041246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.096680 seconds.
+  path: Assets/PM_DB/Pokémon/Spazzatura.asset
+  artifactKey: Guid(301bf452e484e8643a9b36134f50cec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/Spazzatura.asset using Guid(301bf452e484e8643a9b36134f50cec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93fa109e55905e9ed713c0baef038a4') in 0.019642 seconds
+  Import took 0.028382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.324327 seconds.
+  path: Assets/PM_DB/Pokémon/Spazzatura.asset
+  artifactKey: Guid(301bf452e484e8643a9b36134f50cec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/Spazzatura.asset using Guid(301bf452e484e8643a9b36134f50cec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65359f2519650111dfeb7ccb2d9010b7') in 0.042177 seconds
+  Import took 0.063984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.253276 seconds.
+  path: Assets/PM_DB/Pokémon/SuperStarter.asset
+  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/SuperStarter.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f81b302c1701c8cd1d80c6948b71ab0') in 0.033961 seconds
+  Import took 0.043570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.246090 seconds.
+  path: Assets/PM_DB/Pokémon/SuperStarter.asset
+  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/Pokémon/SuperStarter.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096d2fda3ce2f0bb456b01e635a5bb4a') in 0.064990 seconds
+  Import took 0.093370 seconds .
+

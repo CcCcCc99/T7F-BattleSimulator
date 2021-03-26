@@ -10,20 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce19040a328bf3f4cbd88abefff82fcd, type: 3}
-  m_Name: "Nuovo pok\xE9mon"
+  m_Name: SuperStarter
   m_EditorClassIdentifier: 
-  nome: NewMon
-  "numPok\xE9dex": 1
+  nome: SuperStarter
+  "numPok\xE9dex": 132
   FrontSprite: {fileID: 21300000, guid: 1a1b83f7e299bfe40a536cb209eaf6ad, type: 3}
   BackSprite: {fileID: 21300000, guid: ae0b9a21f3665f4498ab7d2c81b91511, type: 3}
   tipi:
-  - {fileID: 11400000, guid: ddf0a1acc9f9d8a4db6da022ce8f150a, type: 2}
-  HPBase: 50
-  attFisicoBase: 50
-  difFisicaBase: 50
-  attSpecialeBase: 50
+  - {fileID: 11400000, guid: 7f3c2643f5849134f9c1db15b82d0e4e, type: 2}
+  - {fileID: 11400000, guid: 6c2c445ae05ff294a8abcca7b0d6d9da, type: 2}
+  HPBase: 39
+  attFisicoBase: 52
+  difFisicaBase: 43
+  attSpecialeBase: 60
   difSpecialeBase: 50
-  "velocit\xE0Base": 50
+  "velocit\xE0Base": 65
   mosseImparabili:
+  - {fileID: 11400000, guid: ddca832282c332b4387d6a3fe08341db, type: 2}
+  - {fileID: 11400000, guid: fb248fcd1ce27e247a91d9dd9bdb2bb6, type: 2}
+  - {fileID: 11400000, guid: 882d5858589fc484998dbf4d6070a045, type: 2}
   - {fileID: 11400000, guid: b227d725c093a8f4f9d6a4bd40c8db6d, type: 2}
   - {fileID: 11400000, guid: 1d66fde4541d37d4d9996c38a75f460f, type: 2}
