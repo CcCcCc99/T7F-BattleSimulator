@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8a7466a803edf549adbdecc69712382, type: 3}
-  m_Name: Nuova mossa attacco
+  m_Name: Foglielama
   m_EditorClassIdentifier: 
-  nome: 
-  tipo: {fileID: 0}
-  puntiPotere: 0
-  precisione: 0
+  nome: Foglielama
+  tipo: {fileID: 11400000, guid: 6c2c445ae05ff294a8abcca7b0d6d9da, type: 2}
+  puntiPotere: 25
+  precisione: 95
   categoria: 0
-  dannoBase: 0
+  dannoBase: 55
+  effettiSecondari: 

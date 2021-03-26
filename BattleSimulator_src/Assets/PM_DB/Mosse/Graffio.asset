@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8a7466a803edf549adbdecc69712382, type: 3}
-  m_Name: Nuova mossa attacco
+  m_Name: Graffio
   m_EditorClassIdentifier: 
-  nome: 
-  tipo: {fileID: 0}
-  puntiPotere: 0
-  precisione: 0
+  nome: Graffio
+  tipo: {fileID: 11400000, guid: ddf0a1acc9f9d8a4db6da022ce8f150a, type: 2}
+  puntiPotere: 35
+  precisione: 100
   categoria: 0
-  dannoBase: 0
+  dannoBase: 40
+  effettiSecondari: 

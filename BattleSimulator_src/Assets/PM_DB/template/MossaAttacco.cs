@@ -13,4 +13,5 @@ public class MossaAttacco : Mossa
 {
     [SerializeField] Categoria categoria;
     [SerializeField] int dannoBase;
+    [SerializeField] string effettiSecondari;
 }
