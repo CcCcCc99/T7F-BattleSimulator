@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce19040a328bf3f4cbd88abefff82fcd, type: 3}
   m_Name: "Nuovo pok\xE9mon"
   m_EditorClassIdentifier: 
-  nome: 
-  "numPok\xE9dex": 0
-  FrontSprite: {fileID: 0}
-  BackSprite: {fileID: 0}
-  tipi: []
-  HPBase: 0
-  attFisicoBase: 0
-  difFisicaBase: 0
-  attSpecialeBase: 0
-  difSpecialeBase: 0
-  "velocit\xE0Base": 0
-  mosseImparabili: []
+  nome: NewMon
+  "numPok\xE9dex": 1
+  FrontSprite: {fileID: 21300000, guid: 1a1b83f7e299bfe40a536cb209eaf6ad, type: 3}
+  BackSprite: {fileID: 21300000, guid: ae0b9a21f3665f4498ab7d2c81b91511, type: 3}
+  tipi:
+  - {fileID: 11400000, guid: ddf0a1acc9f9d8a4db6da022ce8f150a, type: 2}
+  HPBase: 50
+  attFisicoBase: 50
+  difFisicaBase: 50
+  attSpecialeBase: 50
+  difSpecialeBase: 50
+  "velocit\xE0Base": 50
+  mosseImparabili:
+  - {fileID: 11400000, guid: b227d725c093a8f4f9d6a4bd40c8db6d, type: 2}
+  - {fileID: 11400000, guid: 1d66fde4541d37d4d9996c38a75f460f, type: 2}

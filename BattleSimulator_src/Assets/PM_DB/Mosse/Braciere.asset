@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8a7466a803edf549adbdecc69712382, type: 3}
   m_Name: Braciere
   m_EditorClassIdentifier: 
-  nome: 
-  tipo: {fileID: 0}
-  puntiPotere: 0
-  precisione: 0
+  nome: Braciere
+  tipo: {fileID: 11400000, guid: 7f3c2643f5849134f9c1db15b82d0e4e, type: 2}
+  puntiPotere: 25
+  precisione: 100
   categoria: 0
-  dannoBase: 0
+  dannoBase: 40
+  effettiSecondari: brucia10%
