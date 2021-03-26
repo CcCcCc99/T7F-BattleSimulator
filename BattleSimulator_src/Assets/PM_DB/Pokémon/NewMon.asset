@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce19040a328bf3f4cbd88abefff82fcd, type: 3}
+  m_Name: NewMon
+  m_EditorClassIdentifier: 
+  nome: NewMon
+  "numPok\xE9dex": 88
+  FrontSprite: {fileID: 21300000, guid: 4556e48ac708d4e49acc6fd5b77d1759, type: 3}
+  BackSprite: {fileID: 21300000, guid: 7da92838edec1954aac0f214b16868b7, type: 3}
+  tipi:
+  - {fileID: 11400000, guid: ddf0a1acc9f9d8a4db6da022ce8f150a, type: 2}
+  HPBase: 50
+  attFisicoBase: 50
+  difFisicaBase: 50
+  attSpecialeBase: 50
+  difSpecialeBase: 50
+  "velocit\xE0Base": 50
+  mosseImparabili:
+  - {fileID: 11400000, guid: b227d725c093a8f4f9d6a4bd40c8db6d, type: 2}
+  - {fileID: 11400000, guid: 1d66fde4541d37d4d9996c38a75f460f, type: 2}
