@@ -349,4 +349,3 @@ Received Import Request.
 Start importing Assets/PM_DB/Pokémon/SuperStarter.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096d2fda3ce2f0bb456b01e635a5bb4a') in 0.064990 seconds
   Import took 0.093370 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
