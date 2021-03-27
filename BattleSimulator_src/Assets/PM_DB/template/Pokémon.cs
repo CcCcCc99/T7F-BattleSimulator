@@ -36,10 +36,22 @@ public class Pokémon : ScriptableObject
         get { return BackSprite; }
     }
     public List<Tipo> TIPI {
-        get { return tipi; }
+        get
+        {
+            List<Tipo> arr = new List<Tipo>();
+            foreach (Tipo x in tipi)
+                arr.Add(x);
+            return arr;
+        }
     }
     public List<Mossa> MOVESET {
-        get { return mosseImparabili; }
+        get
+        {
+            List<Mossa> arr = new List<Mossa>();
+            foreach (Mossa x in mosseImparabili)
+                arr.Add(x);
+            return arr;
+        }
     }
 
     //statistiche

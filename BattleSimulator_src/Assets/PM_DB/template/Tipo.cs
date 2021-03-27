@@ -30,15 +30,32 @@ public class Tipo : ScriptableObject
     public Color COLORE {
         get { return colore; }
     }
-    // TODO da testare assolutante cosa ritorna questa cosa
-    // magari su un progetto separato
+
     public List<Tipo> IMMUNITA {
-        get { return immunità; }
+        get
+        {
+            List<Tipo> arr = new List<Tipo>();
+            foreach (Tipo x in immunità)
+                arr.Add(x);
+            return arr;
+        }
     }
-    public List<Tipo> RESISTENZA{
-        get { return resistenze; }
+    public List<Tipo> RESISTENZE{
+        get
+        {
+            List<Tipo> arr = new List<Tipo>();
+            foreach (Tipo x in resistenze)
+                arr.Add(x);
+            return arr;
+        }
     }
     public List<Tipo> DEBOLEZZE{
-        get { return debolezze; }
+        get
+        {
+            List<Tipo> arr = new List<Tipo>();
+            foreach (Tipo x in debolezze)
+                arr.Add(x);
+            return arr;
+        }
     }
 }
