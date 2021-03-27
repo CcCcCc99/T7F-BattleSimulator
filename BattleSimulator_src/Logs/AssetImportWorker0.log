@@ -80,3 +80,26 @@ Received Import Request.
 Start importing Assets/PM_DB/template/Pokémon.cs using Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147856f6599b1200b0a0641076917066') in 0.080873 seconds
   Import took 0.090180 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002894 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.501 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 7.218300 ms (FindLiveObjects: 0.983100 ms CreateObjectMapping: 0.465000 ms MarkObjects: 5.388500 ms  DeleteObjects: 0.376800 ms)
+
