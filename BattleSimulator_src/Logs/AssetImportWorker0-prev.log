@@ -15,11 +15,11 @@ C:/Users/corva/Desktop/Progetti/T7F-BattleSimulator/BattleSimulator_src
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62465
+63358
 Successfully changed project path to: C:/Users/corva/Desktop/Progetti/T7F-BattleSimulator/BattleSimulator_src
 C:/Users/corva/Desktop/Progetti/T7F-BattleSimulator/BattleSimulator_src
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 115.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 122.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,318 +35,88 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008563 seconds.
+Registered in 0.003457 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 112.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 77.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.299 seconds
+- Completed reload, in  4.968 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003395 seconds.
+Registered in 0.002456 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 124.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 69.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.865 seconds
+- Completed reload, in  1.942 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.6 MB.
 System memory in use after: 84.6 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2252.
-Total: 6.487000 ms (FindLiveObjects: 0.656800 ms CreateObjectMapping: 0.315800 ms MarkObjects: 5.163400 ms  DeleteObjects: 0.347000 ms)
+Total: 3.388400 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.171200 ms MarkObjects: 2.605000 ms  DeleteObjects: 0.206300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(7ac8be25e2b393543a765252edb91516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(7ac8be25e2b393543a765252edb91516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2c243eb6c8b5f1900d8a2fe4f070a5') in 0.021397 seconds
-  Import took 0.028529 seconds .
+  path: Assets/PM_DB/template/Pokémon.cs
+  artifactKey: Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/template/Pokémon.cs using Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb7c720612d05d0f3cafd7ea7a1f3a7') in 0.073750 seconds
+  Import took 0.080337 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 178.486588 seconds.
-  path: Assets/sprite5gen
-  artifactKey: Guid(d3b7260006d6baf4b8b94258063089fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprite5gen using Guid(d3b7260006d6baf4b8b94258063089fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bf24779a36a2cb4353c48bab5eef3d') in 0.040271 seconds
-  Import took 0.054423 seconds .
+  Time since last request: 355.932277 seconds.
+  path: Assets/PM_DB/template/Pokémon.cs
+  artifactKey: Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/template/Pokémon.cs using Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a539966e12d81e5c83ab5ee2da65e36') in 0.014191 seconds
+  Import took 0.026362 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5467.410192 seconds.
-  path: Assets/PM_DB/Mosse/Azione.asset
-  artifactKey: Guid(b227d725c093a8f4f9d6a4bd40c8db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Azione.asset using Guid(b227d725c093a8f4f9d6a4bd40c8db6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b91cf8710295fe9c2fcfef99d2402d') in 0.118118 seconds
-  Import took 0.128112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.365676 seconds.
-  path: Assets/PM_DB/Tipi/Elettro.asset
-  artifactKey: Guid(bb4ba73c9837b764b98e4d83b4cda9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Tipi/Elettro.asset using Guid(bb4ba73c9837b764b98e4d83b4cda9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fd66a687a15d40b543dccfdd61057b') in 0.093443 seconds
-  Import took 0.115021 seconds .
+  Time since last request: 0.318490 seconds.
+  path: Assets/PM_DB/template/Pokémon.cs
+  artifactKey: Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PM_DB/template/Pokémon.cs using Guid(ce19040a328bf3f4cbd88abefff82fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a539966e12d81e5c83ab5ee2da65e36') in 0.019230 seconds
+  Import took 0.038418 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004810 seconds.
+Registered in 0.001630 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.591 seconds
+- Completed reload, in  3.545 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.6 MB.
 System memory in use after: 84.6 MB.
 
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2256.
-Total: 7.557800 ms (FindLiveObjects: 0.669300 ms CreateObjectMapping: 0.299800 ms MarkObjects: 6.186100 ms  DeleteObjects: 0.398500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 704.474581 seconds.
-  path: Assets/PM_DB/Mosse/Foglielama.asset
-  artifactKey: Guid(fb248fcd1ce27e247a91d9dd9bdb2bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Foglielama.asset using Guid(fb248fcd1ce27e247a91d9dd9bdb2bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5cc838cb4e2f90c6b2b83e1ffa3158') in 0.141397 seconds
-  Import took 0.159415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.392641 seconds.
-  path: Assets/PM_DB/Mosse/Braciere.asset
-  artifactKey: Guid(ddca832282c332b4387d6a3fe08341db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Braciere.asset using Guid(ddca832282c332b4387d6a3fe08341db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f936b3c841b8245ec46ffcc7f04296fc') in 0.034472 seconds
-  Import took 0.043760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 285.752329 seconds.
-  path: Assets/PM_DB/Mosse/Pistolacqua.asset
-  artifactKey: Guid(882d5858589fc484998dbf4d6070a045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Pistolacqua.asset using Guid(882d5858589fc484998dbf4d6070a045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6f3e679228196a8bc3e99deaee4c0a') in 0.049454 seconds
-  Import took 0.062114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.507515 seconds.
-  path: Assets/PM_DB/Mosse/Graffio.asset
-  artifactKey: Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Graffio.asset using Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2fdd0c8790d21180e66d3ce628072d') in 0.083503 seconds
-  Import took 0.098588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.958846 seconds.
-  path: Assets/PM_DB/Mosse/Foglielama.asset
-  artifactKey: Guid(fb248fcd1ce27e247a91d9dd9bdb2bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Foglielama.asset using Guid(fb248fcd1ce27e247a91d9dd9bdb2bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e42d38d27fb79c7dccf7114e8b0d651') in 0.061198 seconds
-  Import took 0.073242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.536801 seconds.
-  path: Assets/PM_DB/Mosse/Graffio.asset
-  artifactKey: Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Graffio.asset using Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28eb0b791727fb22fb0aaf82ff1c295b') in 0.060461 seconds
-  Import took 0.086252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006388 seconds.
-  path: Assets/PM_DB/Mosse/Graffio.asset
-  artifactKey: Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Mosse/Graffio.asset using Guid(1d66fde4541d37d4d9996c38a75f460f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28eb0b791727fb22fb0aaf82ff1c295b') in 0.059235 seconds
-  Import took 0.073248 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002705 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.350 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.6 MB.
-System memory in use after: 84.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2260.
-Total: 5.435000 ms (FindLiveObjects: 0.436300 ms CreateObjectMapping: 0.279700 ms MarkObjects: 4.373000 ms  DeleteObjects: 0.341600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002165 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.482 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.6 MB.
-System memory in use after: 84.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2264.
-Total: 7.311500 ms (FindLiveObjects: 0.420700 ms CreateObjectMapping: 0.315900 ms MarkObjects: 6.266200 ms  DeleteObjects: 0.304600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 844.177886 seconds.
-  path: Assets/PM_DB/Pokémon/Nuovo pokémon.asset
-  artifactKey: Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/Nuovo pokémon.asset using Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d6310306f4de31390452423de67d9d') in 0.073406 seconds
-  Import took 0.083840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 479.231993 seconds.
-  path: Assets/PM_DB/Pokémon/CosoVerde.asset
-  artifactKey: Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/CosoVerde.asset using Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae0f1a20e19a08f74e8069f66ef3d81') in 0.021661 seconds
-  Import took 0.034003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.878919 seconds.
-  path: Assets/PM_DB/Pokémon/NewMon.asset
-  artifactKey: Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/NewMon.asset using Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3df79e6fa91dee487ac8a934f081e1') in 0.033093 seconds
-  Import took 0.042370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 322.109807 seconds.
-  path: Assets/PM_DB/Pokémon/Nuovo pokémon.asset
-  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/Nuovo pokémon.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e27c3bb026e34be1a69dbfeb0c4606') in 0.013826 seconds
-  Import took 0.037324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.701679 seconds.
-  path: Assets/PM_DB/Pokémon/SuperStartte.asset
-  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/SuperStartte.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26672410d0cb3f205ece4341b3442065') in 0.033187 seconds
-  Import took 0.045938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 217.805378 seconds.
-  path: Assets/PM_DB/Pokémon/SuperStartte.asset
-  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/SuperStartte.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8c141bc23aac69a9ab860ec83b141f') in 0.060184 seconds
-  Import took 0.085775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019234 seconds.
-  path: Assets/PM_DB/Pokémon/SuperStartte.asset
-  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/SuperStartte.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8c141bc23aac69a9ab860ec83b141f') in 0.057603 seconds
-  Import took 0.071845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.124574 seconds.
-  path: Assets/PM_DB/Pokémon/NewMon.asset
-  artifactKey: Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/NewMon.asset using Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c44fc16479b58bd692fc4b7ef814534') in 0.029634 seconds
-  Import took 0.042793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003949 seconds.
-  path: Assets/PM_DB/Pokémon/NewMon.asset
-  artifactKey: Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/NewMon.asset using Guid(6245c5adf368c264b870ca94fff32465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c44fc16479b58bd692fc4b7ef814534') in 0.030440 seconds
-  Import took 0.037739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.406154 seconds.
-  path: Assets/PM_DB/Pokémon/CosoVerde.asset
-  artifactKey: Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/CosoVerde.asset using Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dc2477c8762893e42cfaf175869dbc') in 0.019663 seconds
-  Import took 0.029631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002629 seconds.
-  path: Assets/PM_DB/Pokémon/CosoVerde.asset
-  artifactKey: Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/CosoVerde.asset using Guid(e937fddb94e862f4da36500a8ac6fe8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dc2477c8762893e42cfaf175869dbc') in 0.034163 seconds
-  Import took 0.041246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.096680 seconds.
-  path: Assets/PM_DB/Pokémon/Spazzatura.asset
-  artifactKey: Guid(301bf452e484e8643a9b36134f50cec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/Spazzatura.asset using Guid(301bf452e484e8643a9b36134f50cec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93fa109e55905e9ed713c0baef038a4') in 0.019642 seconds
-  Import took 0.028382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 135.324327 seconds.
-  path: Assets/PM_DB/Pokémon/Spazzatura.asset
-  artifactKey: Guid(301bf452e484e8643a9b36134f50cec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/Spazzatura.asset using Guid(301bf452e484e8643a9b36134f50cec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65359f2519650111dfeb7ccb2d9010b7') in 0.042177 seconds
-  Import took 0.063984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.253276 seconds.
-  path: Assets/PM_DB/Pokémon/SuperStarter.asset
-  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/SuperStarter.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f81b302c1701c8cd1d80c6948b71ab0') in 0.033961 seconds
-  Import took 0.043570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.246090 seconds.
-  path: Assets/PM_DB/Pokémon/SuperStarter.asset
-  artifactKey: Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PM_DB/Pokémon/SuperStarter.asset using Guid(a689143bb6ff7504fa54d8048230ec1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096d2fda3ce2f0bb456b01e635a5bb4a') in 0.064990 seconds
-  Import took 0.093370 seconds .
+Total: 6.083900 ms (FindLiveObjects: 0.425600 ms CreateObjectMapping: 0.216800 ms MarkObjects: 4.899600 ms  DeleteObjects: 0.537200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

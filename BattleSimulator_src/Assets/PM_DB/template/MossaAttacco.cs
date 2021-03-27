@@ -14,4 +14,14 @@ public class MossaAttacco : Mossa
     [SerializeField] Categoria categoria;
     [SerializeField] int dannoBase;
     [SerializeField] string effettiSecondari;
+
+    public bool isSpecial() 
+    {
+        if (categoria == Categoria.Speciale) return true;
+        else return false;
+    }
+
+    public int DANNO {
+        get { return dannoBase; }
+    }
 }
