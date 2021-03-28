@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 430705867}
+  - component: {fileID: 430705868}
   m_Layer: 0
   m_Name: "Pok\xE9monGenerico"
   m_TagString: Untagged
@@ -154,6 +155,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &430705868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430705866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff3bfb50cce7a1d46a5fbf6e5856a063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  specie: {fileID: 0}
+  livello: 0
+  moveSet:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ivHp: 0
+  ivAtt: 0
+  ivDef: 0
+  ivSpAtt: 0
+  ivSpDef: 0
+  ivSpe: 0
+  evHp: 0
+  evAtt: 0
+  evDef: 0
+  evSpAtt: 0
+  evSpDef: 0
+  evSpe: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
