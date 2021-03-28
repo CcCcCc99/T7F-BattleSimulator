@@ -8,19 +8,19 @@ public class StatsAndBehaviour : MonoBehaviour
     [SerializeField] int livello;
     [SerializeField] Mossa[] moveSet = new Mossa[4];
 
-    [SerializeField] int iv_hp;
-    [SerializeField] int iv_att;
-    [SerializeField] int iv_def;
-    [SerializeField] int iv_spAtt;
-    [SerializeField] int iv_spDef;
-    [SerializeField] int iv_spe;
+    [SerializeField] int ivHp;
+    [SerializeField] int ivAtt;
+    [SerializeField] int ivDef;
+    [SerializeField] int ivSpAtt;
+    [SerializeField] int ivSpDef;
+    [SerializeField] int ivSpe;
 
-    [SerializeField] int ev_hp;
-    [SerializeField] int ev_att;
-    [SerializeField] int ev_def;
-    [SerializeField] int ev_spAtt;
-    [SerializeField] int ev_spDef;
-    [SerializeField] int ev_spe;
+    [SerializeField] int evHp;
+    [SerializeField] int evAtt;
+    [SerializeField] int evDef;
+    [SerializeField] int evSpAtt;
+    [SerializeField] int evSpDef;
+    [SerializeField] int evSpe;
 
     string nome;
     Sprite frontSprite;
@@ -43,11 +43,11 @@ public class StatsAndBehaviour : MonoBehaviour
 
     void getStats()
     {
-        HP = Mathf.FloorToInt(0.01f * (2 * specie.HP + iv_hp + Mathf.FloorToInt(0.25f * ev_hp)) * livello) + livello + 10;
-        attFisico = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.ATT + iv_att + Mathf.FloorToInt(0.25f * ev_att)) * livello) + 5) * 1;
-        difFisica = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.DEF + iv_def + Mathf.FloorToInt(0.25f * ev_def)) * livello) + 5) * 1;
-        attSpeciale = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.SP_ATT + iv_spAtt + Mathf.FloorToInt(0.25f * ev_spAtt)) * livello) + 5) * 1;
-        difSpeciale = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.SP_DEF + iv_spDef + Mathf.FloorToInt(0.25f * ev_spDef)) * livello) + 5) * 1;
-        velocità = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.SPE + iv_spe + Mathf.FloorToInt(0.25f * ev_spe)) * livello) + 5) * 1;
+        HP = Mathf.FloorToInt(0.01f * (2 * specie.HP + ivHp + Mathf.FloorToInt(0.25f * evHp)) * livello) + livello + 10;
+        attFisico = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.ATT + ivAtt + Mathf.FloorToInt(0.25f * evAtt)) * livello) + 5) * 1;
+        difFisica = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.DEF + ivDef + Mathf.FloorToInt(0.25f * evDef)) * livello) + 5) * 1;
+        attSpeciale = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.SP_ATT + ivSpAtt + Mathf.FloorToInt(0.25f * evSpAtt)) * livello) + 5) * 1;
+        difSpeciale = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.SP_DEF + ivSpDef + Mathf.FloorToInt(0.25f * evSpDef)) * livello) + 5) * 1;
+        velocità = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.SPE + ivSpe + Mathf.FloorToInt(0.25f * evSpe)) * livello) + 5) * 1;
     }
 }
