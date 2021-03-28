@@ -38,10 +38,10 @@ public class StatsAndBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        getStats();
+        setStats();
     }
 
-    void getStats()
+    void setStats()
     {
         HP = Mathf.FloorToInt(0.01f * (2 * specie.HP + ivHp + Mathf.FloorToInt(0.25f * evHp)) * livello) + livello + 10;
         attFisico = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.ATT + ivAtt + Mathf.FloorToInt(0.25f * evAtt)) * livello) + 5) * 1;
