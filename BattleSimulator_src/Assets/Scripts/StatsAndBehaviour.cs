@@ -46,11 +46,21 @@ public class StatsAndBehaviour : MonoBehaviour
 
     void setStats()
     {
-        HP = Mathf.FloorToInt(0.01f * (2 * specie.HP + iv.Hp + Mathf.FloorToInt(0.25f * evHp)) * livello) + livello + 10;
-        attFisico = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.ATT + iv.Att + Mathf.FloorToInt(0.25f * evAtt)) * livello) + 5) * 1;
-        difFisica = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.DEF + iv.Def + Mathf.FloorToInt(0.25f * evDef)) * livello) + 5) * 1;
-        attSpeciale = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.SP_ATT + iv.SpAtt + Mathf.FloorToInt(0.25f * evSpAtt)) * livello) + 5) * 1;
-        difSpeciale = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.SP_DEF + iv.SpDef + Mathf.FloorToInt(0.25f * evSpDef)) * livello) + 5) * 1;
-        velocità = Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * specie.SPE + iv.Spe + Mathf.FloorToInt(0.25f * evSpe)) * livello) + 5) * 1;
+        HP = calcolaHP();
+        attFisico = calcolaStatistica(specie.ATT, iv.Att, evAtt);
+        difFisica = calcolaStatistica(specie.DEF, iv.Def, evDef);
+        attSpeciale = calcolaStatistica(specie.SP_ATT, iv.SpAtt, evSpAtt);
+        difSpeciale = calcolaStatistica(specie.SP_DEF, iv.SpDef, evSpDef);
+        velocità = calcolaStatistica(specie.SPE, iv.Spe, evSpe);
+    }
+
+    int calcolaHP() 
+    {
+        return Mathf.FloorToInt(0.01f * (2 * specie.HP + iv.Hp + Mathf.FloorToInt(0.25f * evHp)) * livello) + livello + 10;
+    }
+
+    int calcolaStatistica(int Base, int Iv, int Ev) 
+    {
+        return Mathf.FloorToInt(Mathf.Floor(0.01f * (2 * Base + Iv + Mathf.FloorToInt(0.25f * Ev)) * livello) + 5) * 1;
     }
 }
