@@ -18,12 +18,15 @@ public class StatsAndBehaviour : MonoBehaviour
     */
     IndividualValues iv;
 
+    /*
     [SerializeField] int evHp;
     [SerializeField] int evAtt;
     [SerializeField] int evDef;
     [SerializeField] int evSpAtt;
     [SerializeField] int evSpDef;
     [SerializeField] int evSpe;
+    */
+    EffortValues ev;
 
     string nome;
     Sprite frontSprite;
@@ -47,16 +50,16 @@ public class StatsAndBehaviour : MonoBehaviour
     void setStats()
     {
         HP = calcolaHP();
-        attFisico = calcolaStatistica(specie.ATT, iv.Att, evAtt);
-        difFisica = calcolaStatistica(specie.DEF, iv.Def, evDef);
-        attSpeciale = calcolaStatistica(specie.SP_ATT, iv.SpAtt, evSpAtt);
-        difSpeciale = calcolaStatistica(specie.SP_DEF, iv.SpDef, evSpDef);
-        velocità = calcolaStatistica(specie.SPE, iv.Spe, evSpe);
+        attFisico = calcolaStatistica(specie.ATT, iv.Att, ev.Att);
+        difFisica = calcolaStatistica(specie.DEF, iv.Def, ev.Def);
+        attSpeciale = calcolaStatistica(specie.SP_ATT, iv.SpAtt, ev.SpAtt);
+        difSpeciale = calcolaStatistica(specie.SP_DEF, iv.SpDef, ev.SpDef);
+        velocità = calcolaStatistica(specie.SPE, iv.Spe, ev.Spe);
     }
 
     int calcolaHP() 
     {
-        return Mathf.FloorToInt(0.01f * (2 * specie.HP + iv.Hp + Mathf.FloorToInt(0.25f * evHp)) * livello) + livello + 10;
+        return Mathf.FloorToInt(0.01f * (2 * specie.HP + iv.Hp + Mathf.FloorToInt(0.25f * ev.Hp)) * livello) + livello + 10;
     }
 
     int calcolaStatistica(int Base, int Iv, int Ev) 
