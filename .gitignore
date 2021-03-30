@@ -1,14 +1,14 @@
 ###
 # Unity folders and files
 ###
-[Aa]ssets/AssetStoreTools*
-[Bb]uild/
-[Ll]ibrary/
-[Ll]ocal[Cc]ache/
-[Oo]bj/
-[Tt]emp/
-[Uu]nityGenerated/
-[Ll]ogs/*
+BattleSimulator_src/[Aa]ssets/AssetStoreTools*
+BattleSimulator_src/[Bb]uild/
+BattleSimulator_src/[Ll]ibrary/
+BattleSimulator_src/[Ll]ocal[Cc]ache/
+BattleSimulator_src/[Oo]bj/
+BattleSimulator_src/[Tt]emp/
+BattleSimulator_src/[Uu]nityGenerated/
+BattleSimulator_src/Logs/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
