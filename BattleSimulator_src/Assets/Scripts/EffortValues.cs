@@ -5,10 +5,10 @@ using UnityEngine;
 public class EffortValues
 {
     //è temporaneo
-    public byte Hp;
-    public byte Att;
-    public byte Def;
-    public byte SpAtt;
-    public byte SpDef;
-    public byte Spe;
+    public byte Hp = 0;
+    public byte Att = 0;
+    public byte Def = 0;
+    public byte SpAtt = 0;
+    public byte SpDef = 0;
+    public byte Spe = 0;
 }
