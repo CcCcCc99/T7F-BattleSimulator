@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: specie
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 380908540663514930, guid: 7d1d7e7498721024ab19ce32c81564e9, type: 3}
+      propertyPath: Alleato
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2238547147303938709, guid: 7d1d7e7498721024ab19ce32c81564e9, type: 3}
       propertyPath: m_RootOrder
       value: 3
