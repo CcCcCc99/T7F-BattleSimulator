@@ -8,6 +8,7 @@ public class Stats : MonoBehaviour
     SpriteRenderer estetica;
     [SerializeField] int livello;
     [SerializeField] Mossa[] moveSet = new Mossa[4];
+    [SerializeField] bool Alleato = false;
     bool valid;
 
     IndividualValues iv = new IndividualValues();
@@ -32,7 +33,10 @@ public class Stats : MonoBehaviour
     {
         setInfo();
         estetica = GetComponent<SpriteRenderer>();
-        estetica.sprite = frontSprite;
+        if (Alleato)
+            estetica.sprite = backSprite;
+        else
+            estetica.sprite = frontSprite;
         setStats();
         valid = checkMoveSet();
         //debugSpawn();
