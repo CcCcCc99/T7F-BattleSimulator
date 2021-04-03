@@ -13,7 +13,7 @@ public enum stat
 }
 
 [CreateAssetMenu(fileName = "Nuova mossa attacco", menuName = "Pokémon/Natura")]
-public class Nature : ScriptableObject
+public class Natura : ScriptableObject
 {
     [SerializeField] string nome;
     [SerializeField] stat statAumentata;

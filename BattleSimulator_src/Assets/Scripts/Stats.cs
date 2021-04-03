@@ -9,7 +9,7 @@ public class Stats : MonoBehaviour
     [SerializeField] int livello;
     [SerializeField] Mossa[] moveSet = new Mossa[4];
     [SerializeField] bool Alleato = false;
-    [SerializeField] Nature natura;
+    [SerializeField] Natura natura;
     bool valid;
 
     IndividualValues iv = new IndividualValues();
