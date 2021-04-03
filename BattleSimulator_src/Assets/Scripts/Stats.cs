@@ -9,6 +9,7 @@ public class Stats : MonoBehaviour
     [SerializeField] int livello;
     [SerializeField] Mossa[] moveSet = new Mossa[4];
     [SerializeField] bool Alleato = false;
+    [SerializeField] Nature natura;
     bool valid;
 
     IndividualValues iv = new IndividualValues();
@@ -39,7 +40,7 @@ public class Stats : MonoBehaviour
             estetica.sprite = frontSprite;
         setStats();
         valid = checkMoveSet();
-        //debugSpawn();
+        debugSpawn();
     }
 
     //-----------------------------------------------------------------------
@@ -56,6 +57,7 @@ public class Stats : MonoBehaviour
     void setStats()
     {
         HP = calcolaHP();
+        // TODO spostare tutte le specifiche della stat in un altra funzione
         attFisico = calcolaStatistica(specie.ATT, iv.Att, ev.Att);
         difFisica = calcolaStatistica(specie.DEF, iv.Def, ev.Def);
         attSpeciale = calcolaStatistica(specie.SP_ATT, iv.SpAtt, ev.SpAtt);
