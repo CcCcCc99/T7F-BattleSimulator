@@ -9,6 +9,7 @@ public class Stats : MonoBehaviour
     [SerializeField] int livello;
     [SerializeField] Mossa[] moveSet = new Mossa[4];
     [SerializeField] bool Alleato = false;
+    [SerializeField] Natura natura;
     bool valid;
 
     IndividualValues iv = new IndividualValues();
@@ -39,7 +40,7 @@ public class Stats : MonoBehaviour
             estetica.sprite = frontSprite;
         setStats();
         valid = checkMoveSet();
-        //debugSpawn();
+        debugSpawn();
     }
 
     //-----------------------------------------------------------------------
@@ -56,11 +57,12 @@ public class Stats : MonoBehaviour
     void setStats()
     {
         HP = calcolaHP();
-        attFisico = calcolaStatistica(specie.ATT, iv.Att, ev.Att);
-        difFisica = calcolaStatistica(specie.DEF, iv.Def, ev.Def);
-        attSpeciale = calcolaStatistica(specie.SP_ATT, iv.SpAtt, ev.SpAtt);
-        difSpeciale = calcolaStatistica(specie.SP_DEF, iv.SpDef, ev.SpDef);
-        velocità = calcolaStatistica(specie.SPE, iv.Spe, ev.Spe);
+        // TODO spostare tutte le specifiche della stat in un altra funzione
+        attFisico = calcolaStatistica(specie.ATT, iv.Att, ev.Att, stat.attacco);
+        difFisica = calcolaStatistica(specie.DEF, iv.Def, ev.Def, stat.difesa);
+        attSpeciale = calcolaStatistica(specie.SP_ATT, iv.SpAtt, ev.SpAtt, stat.spAttacco);
+        difSpeciale = calcolaStatistica(specie.SP_DEF, iv.SpDef, ev.SpDef, stat.spDifesa);
+        velocità = calcolaStatistica(specie.SPE, iv.Spe, ev.Spe, stat.velocità);
     }
 
     bool checkMoveSet() 
@@ -82,12 +84,13 @@ public class Stats : MonoBehaviour
         return Mathf.FloorToInt(0.01f * numFisso) + livello + 10;
     }
 
-    int calcolaStatistica(int Base, int Iv, int Ev) 
+    int calcolaStatistica(int Base, int Iv, int Ev, stat NatStat) 
     {
         int quartoDiEv = Mathf.FloorToInt(0.25f * Ev);
         int numFisso = (2 * Base + Iv + quartoDiEv);
         float perLivello = Mathf.Floor(0.01f * numFisso * livello);
-        return Mathf.FloorToInt(perLivello + 5) * 1;
+        // TODO ricontrollare la formula per l'ultima parentesi
+        return Mathf.FloorToInt((perLivello + 5) * natura.varazioneNatura(NatStat));
     }
 
     //-----------------------------------------------------------------------

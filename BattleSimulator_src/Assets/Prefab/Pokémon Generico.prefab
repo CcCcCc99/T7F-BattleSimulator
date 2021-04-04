@@ -102,3 +102,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a6ad5a93237d3ac43b2971f05e0c1147, type: 2}
   - {fileID: 11400000, guid: a6ad5a93237d3ac43b2971f05e0c1147, type: 2}
   - {fileID: 11400000, guid: a6ad5a93237d3ac43b2971f05e0c1147, type: 2}
+  Alleato: 0
+  natura: {fileID: 11400000, guid: 239777141728e9e448634da3c693c3b4, type: 2}
