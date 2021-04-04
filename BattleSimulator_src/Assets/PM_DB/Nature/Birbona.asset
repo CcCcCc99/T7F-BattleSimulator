@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d3e02041b51ea24fbdc3a4a8a871589, type: 3}
   m_Name: Birbona
   m_EditorClassIdentifier: 
-  nome: 
+  nome: Birbona
   statAumentata: 0
-  statDiminuita: 0
+  statDiminuita: 3
