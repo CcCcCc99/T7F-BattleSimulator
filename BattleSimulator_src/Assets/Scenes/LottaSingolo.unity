@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Pok\xE9mon Alleato"
       objectReference: {fileID: 0}
+    - target: {fileID: 6737326899914593769, guid: 7d1d7e7498721024ab19ce32c81564e9, type: 3}
+      propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d1d7e7498721024ab19ce32c81564e9, type: 3}
 --- !u!1 &815732675
