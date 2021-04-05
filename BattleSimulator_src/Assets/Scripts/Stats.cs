@@ -8,6 +8,7 @@ public class Stats : MonoBehaviour
     SpriteRenderer estetica;
     [SerializeField] int livello;
     [SerializeField] Mossa[] moveSet = new Mossa[4];
+    public Mossa[] mosse { get { return moveSet; } }
     [SerializeField] bool Alleato = false;
     [SerializeField] Natura natura;
     bool valid;
